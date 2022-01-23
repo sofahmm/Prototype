@@ -3,22 +3,6 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Prototype.Pages.AuthPage">
     <ContentPage.Content>
-        <StackLayout>
-            <Image Source="img\nirvana.jpg"/>
-            <Label Text="Логин" 
-                   TextColor="Chocolate" 
-                   FontSize="Medium"/>
-            <Entry x:Name="LoginEntry"
-                   Keyboard="Email"
-                   FontSize="24"/>
-
-            <Label Text="Пароль"
-                   TextColor="Chocolate"
-                   FontSize="Medium"/>
-            <Entry IsPassword="True"/>
-
-            <Button Text="Зарегистрироваться"/>
-            <Button Text="Войти"/>
-        </StackLayout>
+        
     </ContentPage.Content>
 </ContentPage>

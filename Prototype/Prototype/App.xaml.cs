@@ -10,7 +10,7 @@ namespace Prototype
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new Pages.ProjectsInfoPage());
+            MainPage = new NavigationPage( new Pages.AuthPage());
         }
 
         protected override void OnStart()
