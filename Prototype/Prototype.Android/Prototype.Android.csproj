@@ -86,13 +86,16 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
+    <AndroidResource Include="Resources\drawable\sticHh.png" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Prototype\Prototype.csproj">
       <Project>{3DCDD9E9-2EFD-4F00-A978-0B80D67ED39C}</Project>
       <Name>Prototype</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\stich.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>

@@ -5,7 +5,6 @@
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Описание"/>
-
             <Editor Text=""/>
         </StackLayout>
     </ContentPage.Content>

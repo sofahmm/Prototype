@@ -4,8 +4,8 @@
             xmlns:local ="clr-namespace:Prototype.Pages"
              x:Class="Prototype.Pages.AllAboutProjects">
     <TabbedPage.Children>
-        <local:ProjectsInfoPage/>
-        <local:PicturesPage/>
-        <local:ContactsPage/>
+        <local:ProjectsInfoPage Title="Описание"/>
+        <local:PicturesPage Title="Изображения"/>
+        <local:ContactsPage Title="Контакты"/>
     </TabbedPage.Children>
 </TabbedPage>
