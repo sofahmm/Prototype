@@ -13,7 +13,7 @@
             <Label Text="Проекты!"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
-            <ListView x:Name="lv_projects" ItemsSource="{Binding Projects}" />
+            <ListView x:Name="lv_projects" ItemsSource="{Binding Projects}" ItemTapped="lv_projects_ItemTapped"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -12,7 +12,8 @@
             <Entry IsPassword="True"/>
             <Label Text="Пароль"/>
             <Entry IsPassword="True"/>
-            <Button Text="Зарегистрироваться"/>
+            <Button Text="Зарегистрироваться" 
+                    Clicked="Button_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

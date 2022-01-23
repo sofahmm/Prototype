@@ -23,5 +23,10 @@ namespace Prototype.Pages
                                     "Проект 17", "Проект 18", "Проект 19", };
             this.BindingContext = this;
         }
+
+        private async void lv_projects_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            await Navigation.PushAsync(new AllAboutProjects());
+        }
     }
 }

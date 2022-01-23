@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Pages\AboutProjectsPage.xaml">
+    <EmbeddedResource Update="Pages\AllAboutProjects.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Pages\AuthPage.xaml">
