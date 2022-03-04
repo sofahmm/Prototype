@@ -15,7 +15,7 @@ namespace Prototype.Pages
         public AuthPage()
         {
             InitializeComponent();
-            StackLayout sl_auth = new StackLayout();
+            /*StackLayout sl_auth = new StackLayout();
             Image img_auth = new Image();
             img_auth.Source = new UriImageSource
             {
@@ -65,17 +65,17 @@ namespace Prototype.Pages
             sl_auth.Children.Add(entry_password);
             sl_auth.Children.Add(btn_login);
             sl_auth.Children.Add(btn_registration);
-            this.Content = sl_auth;
-        }
-        private async void btn_login_click(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new ProjectPage());
+            this.Content = sl_auth;*/
         }
 
-        private async void btn_reg_click(object sender, EventArgs e)
+        private async void btn_registr_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new RegistrationPage());
         }
 
+        private async void btn_login_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new ProjectPage());
+        }
     }
 }

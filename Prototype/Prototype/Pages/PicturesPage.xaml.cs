@@ -15,7 +15,7 @@ namespace Prototype.Pages
         public PicturesPage()
         {
             InitializeComponent();
-            StackLayout sl_pictures = new StackLayout();
+           /* StackLayout sl_pictures = new StackLayout();
             Image img_pictures1 = new Image();
          
             Image img_pictures2 = new Image();
@@ -54,7 +54,7 @@ namespace Prototype.Pages
             sl_pictures.Children.Add(sl_pictures);
             sv_pict.Content = sl_pictures;
 
-            this.Content = sv_pict;
+            this.Content = sv_pict;*/
    
         }
     }
